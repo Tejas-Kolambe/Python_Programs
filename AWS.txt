@@ -1,0 +1,26 @@
+git clone "https" (copied form Ravi Tambade)
+git add .
+git status
+git commit -m "firts commit"
+git push (to Personal Repository)
+
+******************************************
+sudo apt update
+sudo apt install docker.io
+git clone "https" (copied from Tejas-Kolambe)
+cd docker (name of repository)
+cd data
+mv/move products_data.json products.json
+cd ..
+/docker sudo docker build -t tejasimg .
+sudo docker images
+sudo docker run -d -p 8000:8000 --name tejascont tejasimg
+(copy PUBLIC - IP) ----> IP:8000
+sudo docker ps (gives container ID)
+sudo docker kill (container ID)
+sudo docker ps (no container appear)
+sudo docker images
+sudo docker rmi (image ID)
+
+#removed both Docker Image & Container
+**********************************************
